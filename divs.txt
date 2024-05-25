@@ -1,0 +1,342 @@
+      font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    box-sizing: inherit;
+
+
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    box-sizing: inherit;
+    padding: 50px 0;
+    margin-bottom: 70px;
+    background: rgba(0,0,0,.1);
+
+
+
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    box-sizing: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+
+
+
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    box-sizing: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+
+
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    list-style: none;
+    box-sizing: inherit;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform,-webkit-transform;
+    transform: translate3d(0,0,0);
+
+
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    list-style: none;
+    box-sizing: inherit;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform,-webkit-transform;
+    transform: translate3d(0,0,0);
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="js-informative-banners swiper-container">
+<div class="swiper-wrapper">
+<div class="service-item-container col-md swiper-slide p-0 px-md-3 js-informative-banner-container">
+<div class="service-item mx-4 mx-md-0">
+<div class="row align-items-center">
+<div class="col-auto js-informative-banner-icon-1">
+<svg class="icon-inline icon-5x svg-icon-text"><use xlink:href="#shipping-circle"></use></svg>
+</div>
+<div class="col p-0">
+<h3 class="h5 m-0 js-informative-banner-title js-informative-banner-title-1">Envios a todo el país</h3>
+<p class="m-0 js-informative-banner-description-1">Motomensajería en CABA y GBA. Correo Argentino para el resto del país</p>
+</div>
+</div>
+</div>
+</div>
+<div class="service-item-container col-md swiper-slide p-0 px-md-3 js-informative-banner-container">
+<div class="service-item mx-4 mx-md-0">
+<div class="row align-items-center">
+<div class="col-auto js-informative-banner-icon-2">
+<svg class="icon-inline icon-5x svg-icon-text"><use xlink:href="#credit-card-circle"></use></svg>
+</div>
+<div class="col p-0">
+<h3 class="h5 m-0 js-informative-banner-title js-informative-banner-title-2">CUOTAS SIN INTERËS</h3>
+<p class="m-0 js-informative-banner-description-2">Para clientes Santander en los días seleccionados y para clientes HSBC</p>
+</div>
+</div>
+</div>
+</div>
+<div class="service-item-container col-md swiper-slide p-0 px-md-3 js-informative-banner-container">
+<div class="service-item mx-4 mx-md-0">
+<div class="row align-items-center">
+<div class="col-auto js-informative-banner-icon-3">
+<svg class="icon-inline icon-5x svg-icon-text"><use xlink:href="#cash-circle"></use></svg>
+</div>
+<div class="col p-0">
+<h3 class="h5 m-0 js-informative-banner-title js-informative-banner-title-3">DESCUENTOS por transferencia y efectivo</h3>
+<p class="m-0 js-informative-banner-description-3">10% de DESCUENTO por transferencia y 20% de DESCUENTO en efectivo</p>
+</div>
+</div>
+</div>
+</div>
+<div class="service-item-container col-md swiper-slide p-0 px-md-3 js-informative-banner-container">
+<div class="service-item mx-4 mx-md-0">
+<div class="row align-items-center">
+<div class="col-auto js-informative-banner-icon-4">
+<svg class="icon-inline icon-5x svg-icon-text"><use xlink:href="#promotions-circle"></use></svg>
+</div>
+<div class="col p-0">
+<h3 class="h5 m-0 js-informative-banner-title js-informative-banner-title-4">Envios GRATIS en compras de mas de $95.000</h3>
+<p class="m-0 js-informative-banner-description-4">En tu compra de mas de $95.000 envío gratis a todo el país.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="js-informative-banners-pagination service-pagination swiper-pagination swiper-pagination-black"></div>
+</div>
+</div>
+</div>
+
+
+
+
+body > div.js-home-sections-container > section:nth-child(2) > div > div
+
+
+
+
+/html/body/div[11]/section[2]/div/div
+
+
+
+ 
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+
+
+
+
+
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    box-sizing: inherit;
+
+
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+
+
+    padding: 50px 0;
+    margin-bottom: 70px;
+    background: rgba(0,0,0,.1);
+
+
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+
+
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+
+
+
+Section:
+
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    box-sizing: inherit;
+
+Primer div:
+
+    padding: 50px 0;
+    margin-bottom: 70px;
+    background: rgba(0,0,0,.1);
+
+segundo div (container):
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+
+
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+
+
+
+tercer div (row):
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+cuarto div, swipper container:
+
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+
+quinto div, swipper-wrapper:
+
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform,-webkit-transform;
+    transform: translate3d(0,0,0);
+
+sextodiv, primeracaja:
+
+    min-height: 1px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform,-webkit-transform;
+    padding: 0!important;
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+
+
+div 7:
+
+    list-style: none;
+    box-sizing: inherit;
+    margin-right: 0!important;
+    margin-left: 0!important;
+
+
+div8footer:
+
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+    font-size: 5em;
+    fill: #000;
+
+
+div9, img despacho:
+
+    list-style: none;
+    box-sizing: inherit;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+
+div10, texto:
+
+    list-style: none;
+    box-sizing: inherit;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0!important;
+
+div11, h3:
+
+    color: #000;
+    fill: #000;
+    list-style: none;
+    box-sizing: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0!important;
+    font-family: montserrat,Sans-serif;
+
+div12, parrafo:
+
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    list-style: none;
+    box-sizing: inherit;
+    line-height: 20px;
+    margin: 0!important;

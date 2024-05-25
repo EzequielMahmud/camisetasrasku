@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    
+}
+html {
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+}
+
+.head-main a{
+    cursor: pointer !important;
+    text-decoration: none;
+}
+
+.topbar{
+    background-color: black;
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.iconoredes{
+    display: flex;
+    
+}
+
+.fotoiconoswhatsapp{
+    width: 15px;
+    height: auto;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.fotoiconosig{
+    width: 15px;
+    height: auto;
+    margin-top: 4.25px;
+    margin-left: 18px;
+}
+
+.fotoiconostiktok{
+    width: 13.5px;
+    height: auto;
+    margin-top: 4.50px;
+    margin-left: 18px;
+}
+
+.textotopbariconos{
+    display: flex;
+    width: 91%;
+    margin-right: 43.5px;
+}
+
+.textotopbar{
+    width: 100%;
+    font-family: 'MontserratThin', sans-serif;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.navbarbusqueda {
+    background-color: rgb(19, 111, 172);
+    width: 100%;
+    height: 110px;
+
+    margin: 0 auto;
+    position: relative; /* Añade posición relativa para que los elementos hijos puedan usar posición absoluta */
+    
+}
+
+.logomarca {
+    position: absolute; /* Cambia la posición a absoluta */
+    margin-left: 1%;
+    left: 0; /* Alinea la logomarca a la izquierda */
+    top: 50%; /* Mueve la logomarca al 50% de la altura del padre */
+    width: 200px;
+    height: 80%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    transform: translateY(-50%); /* Centra verticalmente la logomarca */
+}
+
+.divbuscador {
+    position: absolute; /* Cambia la posición a absoluta */
+    left: 50%; /* Mueve el divbuscador al 50% de la anchura del padre */
+    top: 50%; /* Mueve el divbuscador al 50% de la altura del padre */
+    transform: translate(-50%, -50%); /* Centra el divbuscador horizontal y verticalmente */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    width: 48.5%;
+}
+
+.barrabusqueda {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 42px;
+    border-radius: 11px;
+    border-color: transparent;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+}
+
+.boton-busqueda {
+    background: none;
+    border: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.boton-busqueda img {
+    width: 26.66px;
+    height: auto;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.secondnavbar{
+    overflow: hidden;
+    background-color: rgb(19, 111, 172);
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+}
+
+.nav-item {
+    display: inline-block;
+    position: initial;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-row {
+    border-top: 1px solid;
+    border-color: rgba(255, 255, 255, .2);
+}
+
+.align-items-center{
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+
+.nav-desktop {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    
+}
+
+.nav-desktop-list {
+    list-style: none;
+    line-height: 50px; /* Centra verticalmente los elementos */
+    
+}
+
+ul{
+    height: 100%;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    block-size: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    height: 50px;
+    width: 53.78px;
+    
+}
+
+
+.textlimenu{
+    font-family: 'convert';
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-color: rgb(255, 255, 255);
+    color: white !important;
+}
+
+.ulnavbar{
+    padding-right: 2%;
+}
+
+.navbarbusqueda, .secondnavbar {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden; /* Para evitar el desbordamiento horizontal */
+}
+
+#contactonavbar{
+    margin-left: 1%;
+}
+
+.row{
+    display: flex; /* Usar flexbox para alinear las columnas */
+    flex-wrap: wrap; /* Permitir que las columnas se envuelvan en múltiples líneas */
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .topbar {
+        height: 30px; /* Reduce la altura en dispositivos móviles */
+        justify-content: center;
+    }
+
+    .fotoiconosig,
+    .fotoiconostiktok,
+    .fotoiconoswhatsapp {
+        width: 20px; /* Reducción del tamaño de los íconos en dispositivos móviles */
+    }
+
+    /* Ajustes de márgenes para los íconos en dispositivos móviles */
+    .fotoiconostiktok,
+    .fotoiconosig {
+        margin-left: 120px; /* Reduce el espacio entre los íconos en dispositivos móviles */
+    }
+
+    .textotopbariconos{
+        display: none;
+    }
+
+    .logomarca{
+        display: none;
+    }
+    .divbuscador{
+        width: 60%;
+    }
+}
+
+
+@media only screen and (min-width: 2130px){
+
+    .barrabusqueda{
+        max-width: 100%;
+    }
+}

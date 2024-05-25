@@ -1,0 +1,133 @@
+.sectionfooter{
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: 'Montserrat',bold;
+    box-sizing: inherit;
+    
+}
+
+.divfooter{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    background: rgba(0,0,0,.1);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+
+.row-footer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: -15px; */
+    width: 100%; /*tiene que estar en 100*/
+    max-width: 1300px;
+}
+
+.swiper-container-footer{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    
+}
+
+.wrapper-footer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform,-webkit-transform;
+    transform: translate3d(0,0,0);
+}
+
+.primercolumnafooter{
+    min-height: 1px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform,-webkit-transform;
+    padding: 0!important;
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+}
+
+.div7footer{
+    list-style: none;
+    box-sizing: inherit;
+    margin-right: 0!important;
+    margin-left: 0!important;
+    
+}
+
+.div8footer{
+    display: inline-block!important;
+    width: 330px;
+    height: 200px;
+    overflow: visible;
+    vertical-align: -.125em;
+    font-size: 16px;
+    fill: #000;
+}
+
+.divimgfooter{
+    width: 100%;
+    position: relative;
+}
+
+.imgdespacho{
+    list-style: none;
+    box-sizing: inherit;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 96px;
+    transform: translateX(80%);
+}
+.titulosfooter{
+    color: #000;
+    fill: #000;
+    list-style: none;
+    box-sizing: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0!important;
+    font-family: 'Montserrat',Sans-serif;
+    text-align: center;
+    
+}
+
+.parrafofooter{
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: montserrat,Sans-serif;
+    list-style: none;
+    box-sizing: inherit;
+    line-height: 20px;
+    margin: 0!important;
+    text-align: center;
+}
+

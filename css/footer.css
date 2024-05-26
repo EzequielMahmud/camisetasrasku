@@ -94,6 +94,18 @@
     position: relative;
 }
 
+.divimginstagram{
+    width: 100%;
+    position: relative;
+    margin-top: 4.5%;
+}
+
+.divimgtienda{
+    width: 100%;
+    position: relative;
+    margin-top: 3.8%;
+}
+
 .imgdespacho{
     list-style: none;
     box-sizing: inherit;
@@ -106,6 +118,35 @@
     max-width: 96px;
     transform: translateX(80%);
 }
+
+.imgtienda{
+    list-style: none;
+    box-sizing: inherit;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 96px;
+    transform: translateX(101.5%);
+}
+
+.imginstagram{
+    list-style: none;
+    box-sizing: inherit;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 96px;
+    transform: translateX(120%);
+    margin-top: 4.6%;
+}
+
+
 .titulosfooter{
     color: #000;
     fill: #000;
@@ -117,6 +158,36 @@
     font-family: 'Montserrat',Sans-serif;
     text-align: center;
     
+}
+
+.h3instagram{
+    color: #000;
+    fill: #000;
+    list-style: none;
+    box-sizing: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0!important;
+    font-family: 'Montserrat',Sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.h3frentetienda{
+    color: #000;
+    fill: #000;
+    list-style: none;
+    box-sizing: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0!important;
+    font-family: 'Montserrat',Sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.divh3tienda{
+    margin-top: 1%;
 }
 
 .parrafofooter{

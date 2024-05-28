@@ -150,7 +150,7 @@
     opacity: 1;
 }
 
-
+/* --- */
 
 .torsopagretro{
     width: 80%;
@@ -168,18 +168,27 @@
     align-items: center!important;
 }
 
-
+.columnaretrotorso{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 15%;
+    
+}
 
 .filtrosizquierda{
     position: relative;
     width: 100%;
     min-height: 1px;
     padding-left: 15px;
-    flex: 0 0 16.666667%;
+    /* flex: 0 0 16.666667%; */
     max-width: 16.666667%;
     display: block!important;
     padding-right: 0!important;
     visibility: visible!important;
+    white-space: nowrap!important;
 }
 
 .futbolretrotorsoizquierda{
@@ -192,14 +201,125 @@
     display: block!important;
 }
 
-.torsoizqfutbolretro{
-    color: #000;
-    fill: #000;
+.displayinblock{
+    display: inline-block!important;
+}
+
+.displayflex{
+    display: flex!important;
+}
+
+.divtorsoizq{
     visibility: visible!important;
     box-sizing: inherit;
+    display: block!important;
+    margin-bottom: 1rem!important;
+}
+
+.torsoizqfutbolretro{
     font-size: 20px;
     font-weight: 700;
     margin-top: 0;
     font-family: 'MontserratDef',Sans-serif;
-    margin-bottom: 1.5rem!important;
+    margin-bottom: 1rem!important;
+}
+
+.ulfutbolretro{
+    list-style-type: none;
+}
+
+.lifutbolretro{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    height: 22px;
+}
+
+.afutbolretro{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat',Sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+    fill: #000;
+    cursor: pointer;
+    white-space: nowrap;
+    
+}
+
+/* ----------------------- */
+.sectorremeras{
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: 'Montserrat',Sans-serif;
+    box-sizing: inherit;
+    position: relative;
+    width: 80%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.tablasproductos{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.columnascajasremeras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los productos */
+    justify-content: center;
+    width: 100%;
+}
+
+.productos{
+    margin-bottom: 40px;
+    padding: 0!important;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    text-align: center;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.productos img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.productos h4{
+    font-size: 1em;
+    margin-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #000;
+    fill: #000;
+    font-family: 'MontserratLight',Sans-serif;
+}
+.productos h1{
+    font-size: 20px;
+    color: rgb(19, 111, 172);
+    fill: rgb(19, 111, 172);
+    font-family: 'MontserratDef',Sans-serif;
+    font-weight: 700;
+}
+
+.info{
+    padding: 10px;
+    border-top: 4px solid rgb(19, 111, 172);
 }

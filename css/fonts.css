@@ -27,3 +27,8 @@
     font-family: 'convert';
     src: url('../fonts/convert.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'MontserratDef';
+    src: url('../fonts/Montserrat.ttf') format('truetype');
+}

@@ -1,0 +1,205 @@
+.sectioncamisetas{
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: 'convert',Sans-serif;
+    box-sizing: inherit;
+    margin-top: 1.5rem!important;
+}
+
+.containerretro{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.columnaretro{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.headerretro{
+    margin-bottom: 20px;
+}
+
+.titlecenter{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    margin-left: 16.666667%;
+    text-align: center!important;
+}
+
+.tituloretro{
+    fill: #000;
+    box-sizing: inherit;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center!important;
+    color: #136fac;
+    margin-top: 0;
+    font-family: 'MontserratDef',Sans-serif;
+    margin-bottom: 0;
+
+}
+
+.h6tituloretro{
+    font-family: 'MontserratExtraLight',Sans-serif;
+    margin-top: 0;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 1.5rem!important;
+    text-align: center!important;
+}
+
+
+/* ----------------------------------------------------------- */
+
+
+
+.barrainicio{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 100;
+    max-width: 1300px;
+    position: relative;
+    visibility: visible!important;
+    align-items: center!important;
+}
+
+.divbarrainicio{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem!important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.barraretroinblock{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 75%;
+    max-width: 75%;
+    display: block!important;
+}
+
+.aling-self-center{
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    align-self: center!important;
+}
+
+.ultdivretro{
+    font-family: 'MontserratExtraLight',Sans-serif;
+    margin-bottom: 0!important;
+    text-align: left!important;
+}
+
+.aindexderetro{
+    font-family: 'Montserrat',Sans-serif;
+    text-decoration: none!important;
+    transition: all .4s ease;
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .6;
+    color: #000;
+    fill: #000;
+}
+
+.divider{
+    clear: both;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin: 3px;
+    opacity: .6;
+}
+
+.futbolretro{
+    color: #000;
+    fill: #000;
+    font-family: 'Montserrat',Sans-serif;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+
+.torsopagretro{
+    width: 80%;
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: 'Montserrat',Sans-serif;
+    box-sizing: inherit;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 100;
+    max-width: 1300px;
+    position: relative;
+    visibility: visible!important;
+    align-items: center!important;
+}
+
+
+
+.filtrosizquierda{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    display: block!important;
+    padding-right: 0!important;
+    visibility: visible!important;
+}
+
+.futbolretrotorsoizquierda{
+    margin-bottom: 1.5rem!important;
+    padding-bottom: .25rem!important;
+    visibility: visible!important;
+}
+
+.displayblock{
+    display: block!important;
+}
+
+.torsoizqfutbolretro{
+    color: #000;
+    fill: #000;
+    visibility: visible!important;
+    box-sizing: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: 'MontserratDef',Sans-serif;
+    margin-bottom: 1.5rem!important;
+}

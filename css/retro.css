@@ -150,7 +150,7 @@
     opacity: 1;
 }
 
-/* --- */
+/* ------------------------ */
 
 .torsopagretro{
     width: 80%;
@@ -174,7 +174,7 @@
     min-height: 1px;
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 15%;
+    max-width: 18%;
     
 }
 
@@ -183,8 +183,7 @@
     width: 100%;
     min-height: 1px;
     padding-left: 15px;
-    /* flex: 0 0 16.666667%; */
-    max-width: 16.666667%;
+    /* max-width: 16.666667%; */
     display: block!important;
     padding-right: 0!important;
     visibility: visible!important;
@@ -213,7 +212,7 @@
     visibility: visible!important;
     box-sizing: inherit;
     display: block!important;
-    margin-bottom: 1rem!important;
+    margin-bottom: 3rem!important;
 }
 
 .torsoizqfutbolretro{
@@ -221,7 +220,7 @@
     font-weight: 700;
     margin-top: 0;
     font-family: 'MontserratDef',Sans-serif;
-    margin-bottom: 1rem!important;
+    margin-bottom: 0.45rem!important;
 }
 
 .ulfutbolretro{
@@ -245,6 +244,8 @@
     fill: #000;
     cursor: pointer;
     white-space: nowrap;
+    display: flex;
+    margin-bottom: .15rem!important;
     
 }
 
@@ -269,7 +270,7 @@
 .tablasproductos{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    
 }
 
 .columnascajasremeras{
@@ -292,6 +293,7 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    
 }
 
 .productos img{
@@ -319,7 +321,55 @@
     font-weight: 700;
 }
 
+
+
+.imagenesproductos{
+    position: relative;
+    width: 100%;
+    /* pointer-events: none; */
+}
+
+
+.imagenesproductos img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.imagenesproductos .imagen-frontal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    
+}
+
+.imagenesproductos .imagen-trasera {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1; /* Asegura que la imagen trasera esté por encima de la imagen frontal */
+    pointer-events: none; /* Desactiva eventos para que la imagen frontal sea clickeable */
+    
+}
+
+
+.imagenesproductos:hover .imagen-frontal{
+    opacity: 0;
+    
+} 
+
+.imagenesproductos:hover .imagen-trasera{
+    opacity: 1;
+} 
+
 .info{
     padding: 10px;
     border-top: 4px solid rgb(19, 111, 172);
+    width: 100%;
+    margin-top: auto;
 }

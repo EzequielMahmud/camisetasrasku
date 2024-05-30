@@ -1,0 +1,77 @@
+.section-camisetas{
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: 'Montserrat',Sans-serif;
+    box-sizing: inherit;
+    margin-top: 1.5rem!important;
+}
+
+.container-camiseta{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+}
+
+.cajascamisetas{
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 70px;
+}
+
+.contenido-camisetas{
+    position: relative;
+    width: auto;
+    min-height: 1px;
+    flex: 0 0 66.666667%;
+    /* max-width: 66.666667%; */
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+}
+
+.fotos-camisetas{
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    flex: 0 0 16.666667%;
+    /* max-width: 100%; */
+    display: block!important;
+    /* text-align: center; */
+}
+
+
+.a-camisetas{
+    text-decoration: none;
+    transition: all .4s ease;
+    display: block!important;
+    margin-bottom: 1rem!important;
+    position: relative!important;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    padding-bottom: 75%;
+}
+
+
+.img-camisetas-chiquita{
+    position: absolute;
+    /* vertical-align: middle; */
+    /* text-indent: -9999px; */
+    z-index: 1;
+    /* left: 50%; */
+    /* -webkit-transform: translateX(-50%)!important; */
+    width: 100%;
+    height: auto;
+}
+
+
+.camiseta-grande{
+    /* box-sizing: inherit; */
+    position: relative;
+    min-height: 1px;
+    width: 100%;
+    flex: 1;
+    max-width: 100%;
+    padding: 0!important;
+}

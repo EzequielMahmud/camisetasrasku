@@ -327,6 +327,7 @@
     position: relative;
     width: 100%;
     /* pointer-events: none; */
+    
 }
 
 
@@ -345,6 +346,7 @@
     left: 0;
     opacity: 1;
     
+    
 }
 
 .imagenesproductos .imagen-trasera {
@@ -353,23 +355,30 @@
     left: 0;
     opacity: 0;
     z-index: 1; /* Asegura que la imagen trasera esté por encima de la imagen frontal */
-    pointer-events: none; /* Desactiva eventos para que la imagen frontal sea clickeable */
-    
+    /* pointer-events: none;  */
+    /* Desactiva eventos para que la imagen frontal sea clickeable */
+    transition: opacity 1s ease;
 }
 
 
-.imagenesproductos:hover .imagen-frontal{
+/* .imagenesproductos:hover .imagen-frontal{
     opacity: 0;
     
-} 
+
+}  */
 
 .imagenesproductos:hover .imagen-trasera{
+    transition: opacity 1s ease!important;
     opacity: 1;
+    
 } 
 
 .info{
     padding: 10px;
     border-top: 4px solid rgb(19, 111, 172);
     width: 100%;
+    z-index: 10;
     margin-top: auto;
+    background-color: #ffffff; /* Añadido para asegurar que la información tenga un fondo */
+    position: relative; /* Añadido para asegurarse de que se mantenga por encima de las imágenes */
 }

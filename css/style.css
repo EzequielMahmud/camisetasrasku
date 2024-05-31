@@ -76,15 +76,15 @@ html {
 }
 
 .logomarca {
-    position: absolute; /* Cambia la posición a absoluta */
-    margin-left: 1%;
+    position: relative; /* Cambia la posición a absoluta */
+    margin-left: 15%;
     left: 0; /* Alinea la logomarca a la izquierda */
-    top: 50%; /* Mueve la logomarca al 50% de la altura del padre */
-    width: 200px;
-    height: 80%;
+    /* top: 50%; Mueve la logomarca al 50% de la altura del padre */
+    width: auto;
+    height: 76%;
     padding-top: 11px;
     padding-bottom: 11px;
-    transform: translateY(-50%); /* Centra verticalmente la logomarca */
+    /* transform: translateY(-50%); Centra verticalmente la logomarca */
 }
 
 .divbuscador {

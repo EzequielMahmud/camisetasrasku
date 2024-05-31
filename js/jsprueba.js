@@ -1,1 +1,0 @@
-document.querySelector("body > div.js-home-sections-container > section:nth-child(1) > div.js-home-main-slider-container > div > div > div > div > div > div.swiper-wrapper > div.swiper-slide.slide-container.swiper-slide-active")

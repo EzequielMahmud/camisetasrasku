@@ -28,7 +28,7 @@
     position: relative;
     width: 100%;
     min-height: 1px;
-    max-width: 70%;
+    max-width: 60%;
     padding-right: 1rem!important;
     padding-left: 1rem!important;
     overflow-x: hidden!important;
@@ -75,8 +75,6 @@
     transition: opacity .2s, -webkit-filter .2s;
     filter: none;
     opacity: 1;
-    pointer-events: none;
-    
 }
 
 /* -------------------------- */
@@ -158,5 +156,123 @@
 .txt-derecha{
     position: relative;
     width: 100%;
-    max-width: 25%!important;
+    max-width: 35%!important;
+
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+
+}
+
+/* -----Extraido de retro.css----- */
+
+.barrainicio{
+    width: 100%;
+    z-index: 100;
+    position: relative;
+    visibility: visible!important;
+}
+
+.divbarrainicio{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem!important;
+}
+
+.barraretroinblock{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    max-width: 100%;
+}
+
+.ultdivretro{
+    font-family: 'MontserratExtraLight',Sans-serif;
+    text-align: left!important;
+}
+
+.aindexderetro{
+    font-family: 'Montserrat',Sans-serif;
+    text-decoration: none!important;
+    transition: all .4s ease;
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .6;
+    color: #000;
+    fill: #000;
+}
+
+.span-futbol-retro{
+    color: #000;
+    fill: #000;
+    font-weight: 700;
+}
+
+/* ------------Hasta acá---------- */
+
+.divtitulo{
+    box-sizing: inherit;
+    margin-bottom: 20px;
+}
+
+.h1-txt-derecha{
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: 'MontserratDef',Sans-serif;
+    margin-bottom: 0;
+}
+
+.div-precio-txtderecha{
+    box-sizing: inherit;
+    margin-bottom: 1.5rem!important;
+}
+
+.h2-precio-txtderecha{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0;
+    font-family: 'MontserratDef',Sans-serif;
+    margin-bottom: 0!important;
+    color: #136fac;
+}
+
+
+.extras-al-precio{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-bottom: 1.5rem!important;
+    
+}
+
+.div-tarjeta-credito{
+    font-size: 16px;
+    display: flex;
+    align-items: center!important;
+}
+
+
+.img-tarjeta-cuotas{
+    width: 16px;
+    
+}
+.spantajerta{
+    padding-left: 5px
+}
+
+.div-billete{
+    font-size: 16px;
+    display: flex;
+    align-items: flex-start; 
+    
+}
+.img-billete{
+    margin-top: 4px!important;
+    width: 16px;
+    position: relative;
 }

@@ -217,9 +217,8 @@ li{
 }
 
 .row{
-    display: flex; /* Usar flexbox para alinear las columnas */
-    flex-wrap: wrap; /* Permitir que las columnas se envuelvan en múltiples líneas */
-    
+    display: flex !important; /* Usar flexbox para alinear las columnas */
+    flex-wrap: wrap !important; /* Permitir que las columnas se envuelvan en múltiples líneas */ 
 }
 
 .displayinlineblock{

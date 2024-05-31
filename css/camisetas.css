@@ -8,12 +8,14 @@
 }
 
 .container-camiseta{
-    width: 100%;
+    width: 80%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1300px;
+    
+
 }
 
 .cajascamisetas{
@@ -24,54 +26,137 @@
 
 .contenido-camisetas{
     position: relative;
-    width: auto;
+    width: 100%;
     min-height: 1px;
-    flex: 0 0 66.666667%;
-    /* max-width: 66.666667%; */
+    max-width: 70%;
     padding-right: 1rem!important;
     padding-left: 1rem!important;
+    overflow-x: hidden!important;
 }
 
 .fotos-camisetas{
-    /* padding-right: 15px;
-    padding-left: 15px; */
-    flex: 0 0 16.666667%;
-    /* max-width: 100%; */
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    max-width: 15%;
     display: block!important;
-    /* text-align: center; */
 }
 
 
 .a-camisetas{
     text-decoration: none;
+    color: #000;
     transition: all .4s ease;
     display: block!important;
     margin-bottom: 1rem!important;
     position: relative!important;
     border-radius: 10px;
-    /* overflow: hidden; */
+    overflow: hidden;
+    box-shadow: 0 4px 0 0 #136fac;
     padding-bottom: 75%;
+    display: flex;
+    width: 100%;
+    max-width: 68%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .img-camisetas-chiquita{
+    box-sizing: inherit;
     position: absolute;
-    /* vertical-align: middle; */
-    /* text-indent: -9999px; */
+    vertical-align: middle;
+    text-indent: -9999px;
     z-index: 1;
-    /* left: 50%; */
-    /* -webkit-transform: translateX(-50%)!important; */
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
+    top: 0;
+    transition: opacity .2s, -webkit-filter .2s;
+    filter: none;
+    opacity: 1;
+    pointer-events: none;
+    
 }
+
+/* -------------------------- */
+
 
 
 .camiseta-grande{
-    /* box-sizing: inherit; */
     position: relative;
-    min-height: 1px;
     width: 100%;
-    flex: 1;
-    max-width: 100%;
+    min-height: 1px;
+    flex: 0 0 auto;
+    max-width: 85%;
     padding: 0!important;
+    /* display: flex; */
+    justify-content: flex-start;
+}
+
+.containter-camiseta-grande{
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+    visibility: visible;
+    height: auto;
+}
+
+.swiper-wrapper{
+    list-style: none;
+    visibility: visible;
+    box-sizing: inherit;
+    position: relative;
+    width: auto;
+    height: auto;
+    /* max-height: 750px; */
+    z-index: 1;
+    display: flex;
+    transition-property: transform,-webkit-transform;
+    transform: translate3d(0,0,0);
+}
+
+.swiper-slide{
+    flex-shrink: 0;
+    position: relative;
+    transition-property: transform,-webkit-transform;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+.a-camiseta-grande{
+    text-decoration: none;
+    transition: all .4s ease;
+    display: block!important;
+    color: rgba(0,0,0,.5);
+    padding-bottom: 75%;
+}
+
+.img-grande{
+    visibility: visible;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    overflow-x: hidden;
+    
+}
+
+
+
+/* ----------------------- */
+
+
+.txt-derecha{
+    position: relative;
+    width: 100%;
+    max-width: 25%!important;
 }

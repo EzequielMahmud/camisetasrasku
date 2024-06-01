@@ -69,13 +69,40 @@
                             <p>No tenemos local, hacemos envíos a todo el país y tenemos retiro en puntos de encuentro (CABA)</p>
                             <ul class="ul-contacto-info">
                                 <li class="item-li-contacto">
-                                    <a href="" class="a-whatsapp-contacto">1144947959</a>
+                                    <img src="ImgNewIcons/whatsapp.png" alt="Whatsapp" class="icono-whataspp-contacto"><a href="https://wa.me/+5491144947959" class="a-whatsapp-contacto" target="_blank">+54 9 11 4494-7959</a>
                                 </li>
-                                <li class="item-li-contacto"></li>
+
+                                <li class="item-li-contacto">
+                                    <img src="ImgNewIcons/instagram.png" alt="Whatsapp" class="icono-whataspp-contacto"><a href="https://www.instagram.com/camisetas.rasku/" class="a-whatsapp-contacto" target="_blank">camisetas.rasku</a>
+                                </li>
+
+                                <li class="item-li-contacto">
+                                    <img src="ImgNewIcons/email.png" alt="Whatsapp" class="icono-email-contacto"><a href="mailto:camisetasrasku@gmail.com" class="a-email-contacto" target="_blank">camisetasrasku@gmail.com</a>
+                                </li>
+                                
                                 <li class="item-li-contacto"></li>
                             </ul>
                         </div>
                         <div class="columna-derecha-contacto">
+                            <form id="formulario" action="">
+                                <div class="div-formulario-nombre">
+                                    <label class="form-nombre" for="name">Nombre</label>
+                                    <input type="text" id="name" class="campo-para-usuario" autocorrect="off" autocapitalize="off" name="name">
+                                </div>
+                                <div class="div-formulario-nombre">
+                                    <label class="form-nombre" for="name">Email</label>
+                                    <input type="text" id="email" class="campo-para-usuario" autocorrect="off" autocapitalize="off" name="name">
+                                </div>
+                                <div class="div-formulario-nombre">
+                                    <label class="form-nombre" for="name">Telefono</label>
+                                    <input type="text" id="phone" class="campo-para-usuario" autocorrect="off" autocapitalize="off" name="name">
+                                </div>
+                                <div class="div-formulario-nombre">
+                                    <label class="form-nombre" for="name">Mensaje</label>
+                                    <textarea id="message" class="form-control campo-para-usuario-mensaje" autocorrect="off" autocapitalize="off" name="message" rows="7"></textarea>
+                                </div>
+                                <button type="submit" class="btn-enviar-contacto">Enviar</button>
+                            </form>
                             
                         </div>
                     </div>
@@ -83,6 +110,7 @@
 
             </div>
         </section>
+        <script src="./js/validar-contacto.js"></script>
     </main>
     <footer>
         <section class="sectionfooter">

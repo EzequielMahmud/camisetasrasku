@@ -1,5 +1,7 @@
 .sectioncontacto{
     margin-top: 1.5rem!important;
+    width: 100%;
+    
 }
 
 .contacto-titulo{
@@ -68,32 +70,149 @@
 }
 
 .ul-contacto-info{
-    margin-top: 10px;
+    margin-top: 20px;
     padding-left: 0;
 }
 
 .item-li-contacto{
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     position: relative;
-    padding-left: 30px;
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+.icono-whataspp-contacto{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    margin-right: 5px;
 }
 
 .a-whatsapp-contacto{
     font-family: 'Montserrat',Sans-serif;
     text-decoration: none;
-    transition: all .4s ease;
     list-style: none;
     color: #000;
+    height: auto;
 }
 
+.icono-email-contacto{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 2.8px;
+}
+
+.a-email-contacto{
+    font-family: 'Montserrat',Sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    height: auto;
+}
+
+
+
+
+
 .columna-derecha-contacto{
+    font-size: 14px;
+    color: #000;
+    fill: #000;
+    font-family: 'Montserrat',Sans-serif;
+    box-sizing: inherit;
     position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+    flex: 0 0 60%;
+    max-width: 60%;
+    
 }
 
+#formulario{
+    box-sizing: inherit;
+    margin-bottom: 1.5rem!important;
+}
+
+.div-formulario-nombre{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-name{
+    color: #000;
+    fill: #000;
+    font-family: 'Montserrat',Sans-serif;
+    box-sizing: inherit;
+    font-size: 12px;
+    float: left;
+    width: 100%;
+    /* margin-bottom: 10px; */
+
+}
+
+.campo-para-usuario{
+    box-sizing: inherit;
+    font-family: 'Montserrat',Sans-serif;
+    border-radius: 10px;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.3);
+    appearance: none;
+    color: #000;
+    fill: #000;
+    background-color: #fff;
+    transition: all .4s ease;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.campo-para-usuario-mensaje{
+    box-sizing: inherit;
+    font-family: 'Montserrat',Sans-serif;
+    border-radius: 10px;
+    display: block;
+    padding: 30px;
+    width: 95.5%;
+    border: 1px solid rgba(0,0,0,.3);
+    appearance: none;
+    color: #000;
+    fill: #000;
+    background-color: #fff;
+    transition: all .4s ease;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.btn-enviar-contacto{
+    box-sizing: inherit;
+    border-radius: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    appearance: none;
+    text-transform: uppercase;
+    white-space: normal;
+    background: 0 0;
+    transition: all .4s ease;
+    padding: 13px;
+    background-color: #136fac;
+    color: #fff;
+    fill: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    float: left;
+    width: 100%;
+}

@@ -5,6 +5,8 @@
     font-family: 'convert',Sans-serif;
     box-sizing: inherit;
     margin-top: 1.5rem!important;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 .containerretro{
@@ -13,7 +15,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1300px;
+    max-width: 90%;
 }
 
 .row{
@@ -78,7 +80,7 @@
 
 
 .barrainicio{
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     z-index: 100;
@@ -86,14 +88,25 @@
     position: relative;
     visibility: visible!important;
     align-items: center!important;
+
+    max-width: 90%;
+}
+
+.container-barra-inicio{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .divbarrainicio{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 3rem!important;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
 }
 
 .barraretroinblock{
@@ -102,21 +115,21 @@
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    flex: 0 0 75%;
-    max-width: 75%;
-    display: block!important;
+    /* flex: 0 0 75%; */
+    max-width: 100%;
+    /* display: block!important; */
 }
 
 .aling-self-center{
-    flex: 0 0 auto;
-    width: auto;
-    max-width: none;
+    /* flex: 0 0 auto; */
+    /* width: auto; */
+    /* max-width: none; */
     align-self: center!important;
 }
 
 .ultdivretro{
     font-family: 'MontserratExtraLight',Sans-serif;
-    margin-bottom: 0!important;
+    /* margin-bottom: 0!important; */
     text-align: left!important;
 }
 
@@ -124,8 +137,8 @@
     font-family: 'Montserrat',Sans-serif;
     text-decoration: none!important;
     transition: all .4s ease;
-    display: inline-block;
-    margin: 0;
+    /* display: inline-block; */
+    /* margin: 0; */
     font-size: 14px;
     font-weight: 400;
     opacity: .6;
@@ -153,7 +166,7 @@
 /* ------------------------ */
 
 .torsopagretro{
-    width: 80%;
+    width: 100%;
     font-size: 14px;
     color: #000;
     fill: #000;
@@ -162,10 +175,19 @@
     margin-right: auto;
     margin-left: auto;
     z-index: 100;
-    max-width: 1300px;
+    max-width: 90%;
     position: relative;
     visibility: visible!important;
     align-items: center!important;
+}
+
+.containertorso{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
 }
 
 .columnaretrotorso{
@@ -174,7 +196,7 @@
     min-height: 1px;
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 18%;
+    max-width: 20%;
     
 }
 
@@ -259,12 +281,12 @@
     position: relative;
     width: 80%;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
     flex-basis: 0;
     flex-grow: 1;
     max-width: 80%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .tablasproductos{

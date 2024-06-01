@@ -1,7 +1,9 @@
 .sectioncontacto{
     margin-top: 1.5rem!important;
     width: 100%;
-    
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contacto-titulo{

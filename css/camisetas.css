@@ -135,7 +135,7 @@
     transition: all .4s ease;
     display: block!important;
     color: rgba(0,0,0,.5);
-    padding-bottom: 75%;
+    /* padding-bottom: 75%; */
 }
 
 .img-grande{

@@ -79,12 +79,10 @@ html {
     position: relative; /* Cambia la posición a absoluta */
     margin-left: 15%;
     left: 0; /* Alinea la logomarca a la izquierda */
-    /* top: 50%; Mueve la logomarca al 50% de la altura del padre */
     width: auto;
     height: 76%;
     padding-top: 11px;
     padding-bottom: 11px;
-    /* transform: translateY(-50%); Centra verticalmente la logomarca */
 }
 
 .divbuscador {
@@ -217,7 +215,7 @@ li{
 }
 
 .row{
-    display: flex !important; /* Usar flexbox para alinear las columnas */
+    display: flex !important; /*  flexbox para alinear las columnas */
     flex-wrap: wrap !important; /* Permitir que las columnas se envuelvan en múltiples líneas */ 
 }
 
@@ -230,20 +228,19 @@ li{
 
 @media only screen and (max-width: 800px) {
     .topbar {
-        height: 30px; /* Reduce la altura en dispositivos móviles */
+        height: 30px;
         justify-content: center;
     }
 
     .fotoiconosig,
     .fotoiconostiktok,
     .fotoiconoswhatsapp {
-        width: 20px; /* Reducción del tamaño de los íconos en dispositivos móviles */
+        width: 20px;
     }
 
-    /* Ajustes de márgenes para los íconos en dispositivos móviles */
     .fotoiconostiktok,
     .fotoiconosig {
-        margin-left: 120px; /* Reduce el espacio entre los íconos en dispositivos móviles */
+        margin-left: 120px;
     }
 
     .textotopbariconos{
@@ -251,26 +248,18 @@ li{
     }
 
     .div-logo-header{
-        /* width: 100%; */
         align-items: center!important;
         margin-left: auto;
         margin-right: auto;
     }
     .logomarca{
         margin: 0;
-        /* padding: 0; */
-        /* display: none; */
         align-items: center!important;
-        /* left: 100%; Mueve el divbuscador al 50% de la anchura del padre */
-        /* top: 50%; Mueve el divbuscador al 50% de la altura del padre */
-        /* transform: translate(-50%, -50%); */
     }
     .divbuscador{
-        /* width: 60%; */
         display: none;
     }
     .barrabusqueda{
-        /* max-width: 100%; */
         display: none;
     }
     .a-logo-header{

@@ -250,11 +250,31 @@ li{
         display: none;
     }
 
+    .div-logo-header{
+        /* width: 100%; */
+        align-items: center!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .logomarca{
-        display: none;
+        margin: 0;
+        /* padding: 0; */
+        /* display: none; */
+        align-items: center!important;
+        /* left: 100%; Mueve el divbuscador al 50% de la anchura del padre */
+        /* top: 50%; Mueve el divbuscador al 50% de la altura del padre */
+        /* transform: translate(-50%, -50%); */
     }
     .divbuscador{
-        width: 60%;
+        /* width: 60%; */
+        display: none;
+    }
+    .barrabusqueda{
+        /* max-width: 100%; */
+        display: none;
+    }
+    .a-logo-header{
+        width: 100%;
     }
 }
 

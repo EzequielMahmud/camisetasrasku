@@ -35,13 +35,13 @@
 /* Estilos para los botones de navegación */
 .prev{
     font-size: 35px;
-    font-family: MontserratExtraLight,Sans-serif;
+    font-family: 'MontserratExtraLight',Sans-serif;
     list-style: none;
     box-sizing: inherit;
     display: block!important;
     position: absolute; /*Hace que esté dentro de la imagen*/
     top: 50%;
-    /* transform: translateY(-50%); Centrar verticalmente */
+    /* transform: translateY(-50%); lo centra epro me gustó más sin centrar*/
     z-index: 10;
     color: rgb(19, 111, 172);
     text-align: center;
@@ -84,7 +84,7 @@
 
 .a{
     font-size: 35px;
-    font-family: MontserratExtraLight,Sans-serif;
+    font-family: 'MontserratExtraLight',Sans-serif;
     list-style: none;
     box-sizing: inherit;
     display: block!important;
@@ -105,4 +105,18 @@
     background: #fff;
     border: 5px solid #136fac;
     fill: #136fac;
+}
+
+
+/* version movil, solo cambia los botones */
+@media (max-width: 768px) {
+  .prev, .next{
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    /* margin-top: -15px; */
+    top: 40%;
+    /* text-align: start; */
+    line-height: 50%;
+  }
 }
